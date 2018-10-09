@@ -7,6 +7,7 @@
 - [You Don't Need jQuery](https://github.com/nefe/You-Dont-Need-jQuery)
 - [一篇文章看懂_proto_和prototype的关系及区别](https://xxxgitone.github.io/2017/06/08/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E7%9C%8B%E6%87%82-proto-%E5%92%8Cprototype%E7%9A%84%E5%85%B3%E7%B3%BB%E5%8F%8A%E5%8C%BA%E5%88%AB/)
 - [数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
+- [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
 
 
 ### CSS相关
