@@ -9,6 +9,8 @@
 - [数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
 - [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
 - [JavaScript定时器与执行机制解析](http://www.alloyteam.com/2016/05/javascript-timer/)
+- [JavaScript 垃圾回收](https://www.cnblogs.com/dolphinX/p/3348468.html)
+
 
 
 ### CSS相关
