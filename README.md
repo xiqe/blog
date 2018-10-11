@@ -17,6 +17,7 @@
 
 ### CSS相关
 - [CSS实现水平垂直居中的10种方式](https://yanhaijing.com/css/2018/01/17/horizontal-vertical-center/)
+- [用css改变console.log的输出样式](http://www.xuxcf.cc/blog/frondend/css-change-console.log)
 
 ### 推荐阅读
 - [Javascript简易教程（快速复习最常见知识点）](https://yanhaijing.com/basejs/)
