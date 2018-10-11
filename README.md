@@ -11,6 +11,8 @@
 - [JavaScript定时器与执行机制解析](http://www.alloyteam.com/2016/05/javascript-timer/)
 - [JavaScript垃圾回收](https://www.cnblogs.com/dolphinX/p/3348468.html)
 - [事件捕获和冒泡以及事件委托的原理和区别](https://segmentfault.com/a/1190000013314392)
+- [MVC，MVP 和 MVVM 的图示](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
+
 
 
 ### CSS相关
