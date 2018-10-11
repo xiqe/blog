@@ -12,7 +12,7 @@
 - [JavaScript垃圾回收](https://www.cnblogs.com/dolphinX/p/3348468.html)
 - [事件捕获和冒泡以及事件委托的原理和区别](https://segmentfault.com/a/1190000013314392)
 - [MVC，MVP 和 MVVM 的图示](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
-
+- [那些必会用到的 ES6 精粹](https://segmentfault.com/a/1190000016460779)
 
 
 ### CSS相关
