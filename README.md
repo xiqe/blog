@@ -20,5 +20,8 @@
 - [三栏布局的七种解法](http://fengxu.ink/2017/11/15/css%E4%B8%A4%E8%BE%B9%E5%9B%BA%E5%AE%9A%E4%B8%AD%E9%97%B4%E8%87%AA%E9%80%82%E5%BA%94%E5%B8%83%E5%B1%80/)
 - [用css改变console.log的输出样式](http://www.xuxcf.cc/blog/frondend/css-change-console.log)
 
+### 版本管理
+- [Git 常用命令清单](https://github.com/tibaiwan/frontend-note/blob/master/Tools/Git/README.md)
+
 ### 推荐阅读
 - [Javascript简易教程（快速复习最常见知识点）](https://yanhaijing.com/basejs/)
