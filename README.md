@@ -5,7 +5,7 @@ zh-CN:
 	open: 全局开启
 	close: 全局关闭
 en-US:
-	title: Global Mode
+title: Global Mode
 	open: Open
 	close: Global Close
 ---
