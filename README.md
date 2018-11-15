@@ -1,14 +1,3 @@
----
-order: 2
-zh-CN:
-	title: 全局模式
-	open: 全局开启
-	close: 全局关闭
-en-US:
-title: Global Mode
-	open: Open
-	close: Global Close
----
 
 # 前端知识点汇总
 
