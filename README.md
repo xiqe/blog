@@ -24,8 +24,5 @@
 ### React相关
 - [助你完全理解React高阶组件HOC](https://github.com/brickspert/blog/issues/2)
 
-### 版本管理
-- [Git 常用命令清单](https://github.com/tibaiwan/frontend-note/blob/master/Tools/Git/README.md)
-
 ### 推荐阅读
 - [Javascript简易教程（快速复习最常见知识点）](https://yanhaijing.com/basejs/)
