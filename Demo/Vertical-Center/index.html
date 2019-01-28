@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vertical-center</title>
+    <style>
+        * {
+            padding:0;
+            margin:0;
+        }
+        .box {
+            float: left;
+            width: 50%;
+            padding:20px;
+            box-sizing: border-box;
+        }
+        .box h2 {
+            margin-bottom:10px;
+        }
+        .demo {
+            width:100%;
+            height: 500px;
+            border:1px solid #ccc;
+            color: #fff;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+
+
+        .vc1 {
+            width:200px;
+            height:200px;
+            background-color: red;
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-top:-100px;
+            margin-left:-100px;
+        }
+        .vc2 {
+            width:200px;
+            height:200px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .vc3 {
+            width:200px;
+            height:200px;
+            background-color: red;
+            position: absolute;
+            top: calc(50% - 100px);
+            left: calc(50% - 100px);
+        }
+
+        .vc4 {
+            background-color: blue;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .demo5 {
+            width:100%;
+            height: 500px;
+            border:1px solid #ccc;
+            box-sizing: border-box;
+            color: #fff;
+            line-height: 500px;
+            text-align: center;
+        }
+        .vc5 {
+            display: inline-block;
+            background-color: blue;
+            vertical-align: middle;
+            line-height: initial;
+            text-align: left;
+        }
+
+        .demo6 {
+            width:100%;
+            height: 500px;
+            border:1px solid #ccc;
+            box-sizing: border-box;
+            color: #fff;
+            writing-mode: vertical-lr;
+            text-align: center;
+        }
+        .demo6-inner {
+            writing-mode: horizontal-tb;
+            display: inline-block;
+            width: 100%;
+        }
+        .vc6 {
+            background-color: blue;
+            display: inline-block;
+            margin: auto;
+            text-align: left;
+        }
+
+        .demo7 {
+            width:100%;
+            height: 500px;
+            border:1px solid #ccc;
+            box-sizing: border-box;
+            color: #fff;
+            text-align: center;
+        }
+        .vc7 {
+            display: inline-block;
+            background-color: blue;
+        }
+
+        .demo8 {
+            height: 500px;
+            border:1px solid #ccc;
+            color: #fff;
+            box-sizing: border-box;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .vc8 {
+            display: inline-block;
+            background-color: blue;
+        }
+
+        .demo9 {
+            width:100%;
+            height: 500px;
+            border:1px solid #ccc;
+            box-sizing: border-box;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .vc9 {
+            background-color: blue;
+        }
+
+        .demo10 {
+            width:100%;
+            height: 500px;
+            border:1px solid #ccc;
+            box-sizing: border-box;
+            color: #fff;
+            display: grid;
+        }
+        .vc10 {
+            align-self: center;
+            justify-self: center;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>absolute + 负margin</h2>
+        <div class="demo">
+            <div class="vc1"></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>absolute + margin auto</h2>
+        <div class="demo">
+            <div class="vc2"></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>absolute + calc</h2>
+        <div class="demo">
+            <div class="vc3"></div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>absolute + transform</h2>
+        <div class="demo">
+            <div class="vc4">absolute + transform</div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>lineheight</h2>
+        <div class="demo5">
+            <div class="vc5">lineheight</div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>writing-mode</h2>
+        <div class="demo6">
+            <div class="demo6-inner">
+                <div class="vc6">writing-mode</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>table</h2>
+        <table cellpadding="0" cellspacing="0" class="demo7">
+            <tbody>
+            <tr>
+                <td>
+                    <div class="vc7">table</div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="box">
+        <h2>css-table</h2>
+        <div style="display:table;width: 100%">
+            <div class="demo8">
+                <div class="vc8">css-table</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>flex</h2>
+        <div class="demo9">
+            <div class="vc9">flex</div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>grid</h2>
+        <div class="demo10">
+            <div class="vc10">grid</div>
+        </div>
+    </div>
+
+</body>
+</html>
