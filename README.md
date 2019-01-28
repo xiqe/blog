@@ -17,7 +17,6 @@
 
 
 ### CSS相关
-- [CSS实现水平垂直居中的10种方式](https://yanhaijing.com/css/2018/01/17/horizontal-vertical-center/)
 - [三栏布局的七种解法](http://fengxu.ink/2017/11/15/css%E4%B8%A4%E8%BE%B9%E5%9B%BA%E5%AE%9A%E4%B8%AD%E9%97%B4%E8%87%AA%E9%80%82%E5%BA%94%E5%B8%83%E5%B1%80/)
 - [用css改变console.log的输出样式](http://www.xuxcf.cc/blog/frondend/css-change-console.log)
 
