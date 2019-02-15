@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>test</title>
+  <style>
+    .scroll-box {
+      border: 1px solid red;
+      height: 200px;
+      width: 400px;
+      overflow-y:auto;
+      background:white;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <p>test</p><p>test</p><p>test</p>
+    <div class="scroll-box">
+      <p>inner</p>
+      <p>inner</p>
+      <p>inner</p>
+      <p>inner</p>
+      <p>inner</p>
+      <p>inner</p>
+      <p>inner</p>
+    </div>
+    <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
+  </div>
+  
+  <script>
+    let Top = 0,
+        switchScorll = true,
+        dom = document.querySelector('.scroll-box');
+
+    dom.addEventListener('mouseover',()=>{
+      switchScorll = false;
+      Top = document.documentElement.scrollTop;
+    },false);
+    dom.addEventListener('mouseleave',()=>{
+      switchScorll = true;
+    },false);
+
+    window.onscroll = ()=>{
+      if(!switchScorll){
+        document.documentElement.scrollTop = Top;
+      }
+    }
+  </script>
+</body>
+</html>
