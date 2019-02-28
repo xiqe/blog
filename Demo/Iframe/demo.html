@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>iframe demo</title>
+    <style>
+        * {
+            padding:0;
+            margin:0;
+        }
+        header {
+            background:#2c2c2c;
+            color:#fff;
+            line-height:50px;
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+        }
+        footer {
+            background:#2c2c2c;
+            color:#fff;
+            line-height:40px;
+            position:fixed;
+            bottom:0;
+            left:0;
+            width:100%;
+        }
+        side {
+            background:#fbfbfb;
+            width:240px;
+            position:fixed;
+            left:0;
+            top:50px;
+            bottom:40px;
+        }
+        section {
+            background:#ccc;
+            width:100%;
+            position:fixed;
+            left:240px;
+            right:0;
+            top:50px;
+            bottom:40px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <side></side>
+    <section>
+        <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
+        <iframe src="./iframe.html" frameborder="0" id="iframe" width="100%"></iframe>
+        <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
+    </section>
+    <footer>footer</footer>
+
+    <script>
+        window.addEventListener("message", function( event ) {
+            console.log(event);
+            document.getElementById("iframe").style.height = event.data + 'px';
+        }, false );
+    </script>
+</body>
+</html>
