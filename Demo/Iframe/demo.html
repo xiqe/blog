@@ -52,14 +52,13 @@
     <side></side>
     <section>
         <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
-        <iframe src="./iframe.html" frameborder="0" id="iframe" width="100%"></iframe>
+        <iframe src="https://holamundo.cn/blog/Demo/Iframe/iframe.html" frameborder="0" id="iframe" width="100%"></iframe>
         <p>test</p><p>test</p><p>test</p><p>test</p><p>test</p><p>test</p>
     </section>
     <footer>footer</footer>
 
     <script>
         window.addEventListener("message", function( event ) {
-            console.log(event);
             document.getElementById("iframe").style.height = event.data + 'px';
         }, false );
     </script>
